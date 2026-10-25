@@ -1,0 +1,15 @@
+{
+  "name": "thesis-night-run-marketplace",
+  "owner": { "name": "zjw020808" },
+  "description": "只含 thesis-night-run 一个插件的中文学位论文夜间批处理市场：任务三档分级、gate 原因、夜间清单与晨报。",
+  "plugins": [
+    {
+      "name": "thesis-night-run",
+      "source": "./thesis-night-run",
+      "description": "中文学位论文的夜间批处理与人工介入分级：T1 可自动、T2 可自动但需复核、Gated 必须等人；生成夜间任务清单与晨报。",
+      "version": "1.0.0",
+      "category": "academic",
+      "license": "MIT"
+    }
+  ]
+}
